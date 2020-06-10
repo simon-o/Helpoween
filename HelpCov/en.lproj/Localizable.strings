@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  HelpCov
+
+  Created by Antoine Simon on 29/05/2020.
+  Copyright © 2020 Antoine Simon. All rights reserved.
+*/
+
+"name_label" = "Address";
+"have_candy" = "Do this house give candy";
+"vegan_candy" = "Vegan candy";
+"halal_candy" = "Halal candy";
+
+
+
+"search_button_title" = "Search address";
+"filter_label" = "Filter";
+
+"apply_button" = "Apply";
+
+"add_label" = "Add";
+"save_label" = "Save";
+
+"yes_label" = "Yes";
+"no_label" = "No";
