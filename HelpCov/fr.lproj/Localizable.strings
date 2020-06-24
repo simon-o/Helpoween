@@ -11,10 +11,7 @@
 "vegan_candy" = "Bonbon Vegan";
 "halal_candy" = "Bonbon Halal";
 
-"have_candy" = "Do this house give candy";
-"vegan_candy" = "Vegan candy";
-"halal_candy" = "Halal candy";
-
+"search_button_title" = "Chercher l'addresse";
 "filter_label" = "Filtre";
 
 "apply_button" = "Appliquer";

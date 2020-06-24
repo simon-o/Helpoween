@@ -146,6 +146,38 @@
             endingLineNumber = "71"
             landmarkName = "apply(filters:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8E5CC8F4-6594-407D-9E6C-37E1E6AE9C26 - adc7c89b2ba31a78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Helpoween.MapViewModel.apply(filters: Swift.Int) -&gt; ()"
+                  moduleName = "Helpoween"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ant.simon/Desktop/Helpoween/HelpCov/Map/MapViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "508">
+               </Location>
+               <Location
+                  uuid = "8E5CC8F4-6594-407D-9E6C-37E1E6AE9C26 - edff6c5f33b056af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Helpoween.ListPoint) -&gt; Swift.Bool in Helpoween.MapViewModel.apply(filters: Swift.Int) -&gt; ()"
+                  moduleName = "Helpoween"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ant.simon/Desktop/Helpoween/HelpCov/Map/MapViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -44,7 +44,7 @@
                                             <color key="backgroundColor" red="0.84320014720000003" green="0.84697097539999999" blue="0.85098165270000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                             <state key="normal" title="Button">
-                                                <color key="titleColor" red="0.02335285954" green="0.094266481700000002" blue="0.53728783130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="titleColor" red="0.89411764709999997" green="0.48627450979999998" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -61,7 +61,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0OF-4X-tTL">
                                                     <rect key="frame" x="0.0" y="20" width="334" height="16.5"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
-                                                    <color key="textColor" red="0.02335285954" green="0.094266481700000002" blue="0.53728783130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="textColor" red="0.89411764709999997" green="0.48627450979999998" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -79,7 +79,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rt5-hY-JxV">
                                                     <rect key="frame" x="0.0" y="0.0" width="334" height="16.5"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
-                                                    <color key="textColor" red="0.02335285954" green="0.094266481700000002" blue="0.53728783130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="textColor" red="0.89411764709999997" green="0.48627450979999998" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="4yD-Fq-TON">
@@ -106,7 +106,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYI-0f-Cay">
                                                     <rect key="frame" x="0.0" y="0.0" width="334" height="16.5"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
-                                                    <color key="textColor" red="0.02335285954" green="0.094266481700000002" blue="0.53728783130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="textColor" red="0.89411764709999997" green="0.48627450979999998" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3mH-T4-Wo8">
@@ -133,7 +133,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="De5-pX-5B7">
                                                     <rect key="frame" x="0.0" y="0.0" width="334" height="16.5"/>
                                                     <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
-                                                    <color key="textColor" red="0.02335285954" green="0.094266481700000002" blue="0.53728783130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="textColor" red="0.89411764709999997" green="0.48627450979999998" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="DcX-Gl-EZq">
@@ -162,7 +162,7 @@
                                             </constraints>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
                                             <state key="normal" title="Button">
-                                                <color key="titleColor" red="0.02335285954" green="0.094266481700000002" blue="0.53728783130000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="titleColor" red="0.89411764709999997" green="0.48627450979999998" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </state>
                                             <userDefinedRuntimeAttributes>
                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
