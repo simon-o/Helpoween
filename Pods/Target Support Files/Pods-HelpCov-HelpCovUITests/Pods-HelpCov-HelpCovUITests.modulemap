@@ -1,6 +1,0 @@
-framework module Pods_HelpCov_HelpCovUITests {
-  umbrella header "Pods-HelpCov-HelpCovUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

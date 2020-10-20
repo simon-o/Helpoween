@@ -37,9 +37,9 @@
 		2DC29DCF248523E700AF0BE8 /* SearchAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC29DCD248523E700AF0BE8 /* SearchAddressViewController.swift */; };
 		2DC29DD0248523E700AF0BE8 /* SearchAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DC29DCE248523E700AF0BE8 /* SearchAddressViewController.xib */; };
 		2DC29DD32485242C00AF0BE8 /* SearchAddressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC29DD22485242C00AF0BE8 /* SearchAddressViewModel.swift */; };
-		4AC752736A523D6EAAF1E6C5 /* Pods_HelpCov_HelpCovUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373234A557F32D6901A54963 /* Pods_HelpCov_HelpCovUITests.framework */; };
-		773FFA39B044290423CD6712 /* Pods_HelpCovTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A475A68D5B306C703BD7C41A /* Pods_HelpCovTests.framework */; };
-		C08BA0072BFD5A9A5C19467E /* Pods_HelpCov.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB4A4398AF89EFB317DCF10 /* Pods_HelpCov.framework */; };
+		396FDA1BE39F565745F54FE6 /* Pods_Helpoween_HelpoweenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6D080DC1E4D85F8DBAD7AC /* Pods_Helpoween_HelpoweenUITests.framework */; };
+		B4A6EA6546B231E8FE675B84 /* Pods_Helpoween.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E345306EF8A524AED6ED0053 /* Pods_Helpoween.framework */; };
+		D88AF7BCC13D6F8778DDCB5D /* Pods_HelpoweenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0988DBAA3FB4A25CC159EBDC /* Pods_HelpoweenTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026F27A694986B2A3B066ACE /* Pods-HelpCovTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpCovTests.debug.xcconfig"; path = "Target Support Files/Pods-HelpCovTests/Pods-HelpCovTests.debug.xcconfig"; sourceTree = "<group>"; };
-		0DF275B6CCFB44BCAF95CC60 /* Pods-HelpCovTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpCovTests.release.xcconfig"; path = "Target Support Files/Pods-HelpCovTests/Pods-HelpCovTests.release.xcconfig"; sourceTree = "<group>"; };
-		2BCC7B1C74E9A56BD289A016 /* Pods-HelpCov-HelpCovUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpCov-HelpCovUITests.debug.xcconfig"; path = "Target Support Files/Pods-HelpCov-HelpCovUITests/Pods-HelpCov-HelpCovUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0988DBAA3FB4A25CC159EBDC /* Pods_HelpoweenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpoweenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E13A7A2DFA090303D8EB530 /* Pods-HelpoweenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpoweenTests.release.xcconfig"; path = "Target Support Files/Pods-HelpoweenTests/Pods-HelpoweenTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D07F4B72490F7D100FF3105 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2D0C559924817A27000DF1C7 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		2D3FD0F3246EC2CB00EDD02C /* Helpoween.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helpoween.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,12 +100,13 @@
 		2DC29DCD248523E700AF0BE8 /* SearchAddressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAddressViewController.swift; sourceTree = "<group>"; };
 		2DC29DCE248523E700AF0BE8 /* SearchAddressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchAddressViewController.xib; sourceTree = "<group>"; };
 		2DC29DD22485242C00AF0BE8 /* SearchAddressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAddressViewModel.swift; sourceTree = "<group>"; };
-		373234A557F32D6901A54963 /* Pods_HelpCov_HelpCovUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpCov_HelpCovUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C1836EE557BDC98E93B32E2 /* Pods-HelpCov-HelpCovUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpCov-HelpCovUITests.release.xcconfig"; path = "Target Support Files/Pods-HelpCov-HelpCovUITests/Pods-HelpCov-HelpCovUITests.release.xcconfig"; sourceTree = "<group>"; };
-		8FBB1F460AF715D3F36680DD /* Pods-HelpCov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpCov.release.xcconfig"; path = "Target Support Files/Pods-HelpCov/Pods-HelpCov.release.xcconfig"; sourceTree = "<group>"; };
-		9027B255068ECFB41D124634 /* Pods-HelpCov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpCov.debug.xcconfig"; path = "Target Support Files/Pods-HelpCov/Pods-HelpCov.debug.xcconfig"; sourceTree = "<group>"; };
-		A475A68D5B306C703BD7C41A /* Pods_HelpCovTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpCovTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAB4A4398AF89EFB317DCF10 /* Pods_HelpCov.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpCov.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A438FD7844E94A4F0D48990 /* Pods-Helpoween.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helpoween.release.xcconfig"; path = "Target Support Files/Pods-Helpoween/Pods-Helpoween.release.xcconfig"; sourceTree = "<group>"; };
+		3FCE0CCF5BBB2B52A299D4BA /* Pods-Helpoween-HelpoweenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helpoween-HelpoweenUITests.debug.xcconfig"; path = "Target Support Files/Pods-Helpoween-HelpoweenUITests/Pods-Helpoween-HelpoweenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4462BE44E605DE1223CBCD08 /* Pods-Helpoween.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helpoween.debug.xcconfig"; path = "Target Support Files/Pods-Helpoween/Pods-Helpoween.debug.xcconfig"; sourceTree = "<group>"; };
+		9695F66B92097E0765C9BD36 /* Pods-HelpoweenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpoweenTests.debug.xcconfig"; path = "Target Support Files/Pods-HelpoweenTests/Pods-HelpoweenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD2901BA94EC27625C15E0B6 /* Pods-Helpoween-HelpoweenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helpoween-HelpoweenUITests.release.xcconfig"; path = "Target Support Files/Pods-Helpoween-HelpoweenUITests/Pods-Helpoween-HelpoweenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E345306EF8A524AED6ED0053 /* Pods_Helpoween.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Helpoween.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE6D080DC1E4D85F8DBAD7AC /* Pods_Helpoween_HelpoweenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Helpoween_HelpoweenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C08BA0072BFD5A9A5C19467E /* Pods_HelpCov.framework in Frameworks */,
+				B4A6EA6546B231E8FE675B84 /* Pods_Helpoween.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				773FFA39B044290423CD6712 /* Pods_HelpCovTests.framework in Frameworks */,
+				D88AF7BCC13D6F8778DDCB5D /* Pods_HelpoweenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC752736A523D6EAAF1E6C5 /* Pods_HelpCov_HelpCovUITests.framework in Frameworks */,
+				396FDA1BE39F565745F54FE6 /* Pods_Helpoween_HelpoweenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +145,7 @@
 				2D3FD117246EC2CC00EDD02C /* HelpCovUITests */,
 				2D3FD0F4246EC2CB00EDD02C /* Products */,
 				E3BA0D72D9E678521846E6A8 /* Pods */,
-				7E18B62FA7CB27AD58A9564C /* Frameworks */,
+				CE6942356EF5FDD23DA4406E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,12 +285,12 @@
 			path = Search;
 			sourceTree = "<group>";
 		};
-		7E18B62FA7CB27AD58A9564C /* Frameworks */ = {
+		CE6942356EF5FDD23DA4406E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAB4A4398AF89EFB317DCF10 /* Pods_HelpCov.framework */,
-				373234A557F32D6901A54963 /* Pods_HelpCov_HelpCovUITests.framework */,
-				A475A68D5B306C703BD7C41A /* Pods_HelpCovTests.framework */,
+				E345306EF8A524AED6ED0053 /* Pods_Helpoween.framework */,
+				FE6D080DC1E4D85F8DBAD7AC /* Pods_Helpoween_HelpoweenUITests.framework */,
+				0988DBAA3FB4A25CC159EBDC /* Pods_HelpoweenTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -298,12 +298,12 @@
 		E3BA0D72D9E678521846E6A8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9027B255068ECFB41D124634 /* Pods-HelpCov.debug.xcconfig */,
-				8FBB1F460AF715D3F36680DD /* Pods-HelpCov.release.xcconfig */,
-				2BCC7B1C74E9A56BD289A016 /* Pods-HelpCov-HelpCovUITests.debug.xcconfig */,
-				3C1836EE557BDC98E93B32E2 /* Pods-HelpCov-HelpCovUITests.release.xcconfig */,
-				026F27A694986B2A3B066ACE /* Pods-HelpCovTests.debug.xcconfig */,
-				0DF275B6CCFB44BCAF95CC60 /* Pods-HelpCovTests.release.xcconfig */,
+				4462BE44E605DE1223CBCD08 /* Pods-Helpoween.debug.xcconfig */,
+				3A438FD7844E94A4F0D48990 /* Pods-Helpoween.release.xcconfig */,
+				3FCE0CCF5BBB2B52A299D4BA /* Pods-Helpoween-HelpoweenUITests.debug.xcconfig */,
+				DD2901BA94EC27625C15E0B6 /* Pods-Helpoween-HelpoweenUITests.release.xcconfig */,
+				9695F66B92097E0765C9BD36 /* Pods-HelpoweenTests.debug.xcconfig */,
+				0E13A7A2DFA090303D8EB530 /* Pods-HelpoweenTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -315,12 +315,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D3FD11D246EC2CC00EDD02C /* Build configuration list for PBXNativeTarget "Helpoween" */;
 			buildPhases = (
-				4DF55947DAB46805B354C1C0 /* [CP] Check Pods Manifest.lock */,
+				172B6E1912AFECCC9386D0F4 /* [CP] Check Pods Manifest.lock */,
 				2D3FD0EF246EC2CB00EDD02C /* Sources */,
 				2D3FD0F0246EC2CB00EDD02C /* Frameworks */,
 				2D3FD0F1246EC2CB00EDD02C /* Resources */,
-				67A927CFDB9D0050D63BAA0A /* [CP] Embed Pods Frameworks */,
-				1A2B968BC4741EA66A6A4EA1 /* [CP] Copy Pods Resources */,
+				0F79A74A9F0F81F0E4E6CF4B /* [CP] Embed Pods Frameworks */,
+				8C05AAEB83FE76D5A8135D14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -335,7 +335,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D3FD120246EC2CC00EDD02C /* Build configuration list for PBXNativeTarget "HelpoweenTests" */;
 			buildPhases = (
-				7DA08E262B1C1F56C46E2F44 /* [CP] Check Pods Manifest.lock */,
+				2B098849EAB6032F7C6A733F /* [CP] Check Pods Manifest.lock */,
 				2D3FD105246EC2CC00EDD02C /* Sources */,
 				2D3FD106246EC2CC00EDD02C /* Frameworks */,
 				2D3FD107246EC2CC00EDD02C /* Resources */,
@@ -354,12 +354,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D3FD123246EC2CC00EDD02C /* Build configuration list for PBXNativeTarget "HelpoweenUITests" */;
 			buildPhases = (
-				473092C7640BB132AC5FFBCC /* [CP] Check Pods Manifest.lock */,
+				BE9493C825C893D1298B9066 /* [CP] Check Pods Manifest.lock */,
 				2D3FD110246EC2CC00EDD02C /* Sources */,
 				2D3FD111246EC2CC00EDD02C /* Frameworks */,
 				2D3FD112246EC2CC00EDD02C /* Resources */,
-				A82E2E166EF675481D6E0E10 /* [CP] Embed Pods Frameworks */,
-				A7D202D943DE536207446F68 /* [CP] Copy Pods Resources */,
+				B4F51B70D7FB250FEC797F58 /* [CP] Embed Pods Frameworks */,
+				8C3E479E26EA5E0B6B57BB57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -451,85 +451,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A2B968BC4741EA66A6A4EA1 /* [CP] Copy Pods Resources */ = {
+		0F79A74A9F0F81F0E4E6CF4B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelpCov/Pods-HelpCov-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelpCov/Pods-HelpCov-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelpCov/Pods-HelpCov-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		473092C7640BB132AC5FFBCC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HelpCov-HelpCovUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4DF55947DAB46805B354C1C0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HelpCov-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		67A927CFDB9D0050D63BAA0A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelpCov/Pods-HelpCov-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Helpoween/Pods-Helpoween-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelpCov/Pods-HelpCov-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Helpoween/Pods-Helpoween-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelpCov/Pods-HelpCov-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Helpoween/Pods-Helpoween-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7DA08E262B1C1F56C46E2F44 /* [CP] Check Pods Manifest.lock */ = {
+		172B6E1912AFECCC9386D0F4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -544,45 +483,106 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-HelpCovTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Helpoween-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A7D202D943DE536207446F68 /* [CP] Copy Pods Resources */ = {
+		2B098849EAB6032F7C6A733F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelpCov-HelpCovUITests/Pods-HelpCov-HelpCovUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelpoweenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C05AAEB83FE76D5A8135D14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Helpoween/Pods-Helpoween-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelpCov-HelpCovUITests/Pods-HelpCov-HelpCovUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Helpoween/Pods-Helpoween-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelpCov-HelpCovUITests/Pods-HelpCov-HelpCovUITests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Helpoween/Pods-Helpoween-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A82E2E166EF675481D6E0E10 /* [CP] Embed Pods Frameworks */ = {
+		8C3E479E26EA5E0B6B57BB57 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelpCov-HelpCovUITests/Pods-HelpCov-HelpCovUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Helpoween-HelpoweenUITests/Pods-Helpoween-HelpoweenUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelpCov-HelpCovUITests/Pods-HelpCov-HelpCovUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-Helpoween-HelpoweenUITests/Pods-Helpoween-HelpoweenUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelpCov-HelpCovUITests/Pods-HelpCov-HelpCovUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Helpoween-HelpoweenUITests/Pods-Helpoween-HelpoweenUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4F51B70D7FB250FEC797F58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Helpoween-HelpoweenUITests/Pods-Helpoween-HelpoweenUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Helpoween-HelpoweenUITests/Pods-Helpoween-HelpoweenUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Helpoween-HelpoweenUITests/Pods-Helpoween-HelpoweenUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9493C825C893D1298B9066 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Helpoween-HelpoweenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -783,16 +783,18 @@
 		};
 		2D3FD11E246EC2CC00EDD02C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9027B255068ECFB41D124634 /* Pods-HelpCov.debug.xcconfig */;
+			baseConfigurationReference = 4462BE44E605DE1223CBCD08 /* Pods-Helpoween.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 43N6QXKADX;
 				INFOPLIST_FILE = HelpCov/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = test.Helpoween.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -802,16 +804,18 @@
 		};
 		2D3FD11F246EC2CC00EDD02C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FBB1F460AF715D3F36680DD /* Pods-HelpCov.release.xcconfig */;
+			baseConfigurationReference = 3A438FD7844E94A4F0D48990 /* Pods-Helpoween.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 43N6QXKADX;
 				INFOPLIST_FILE = HelpCov/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = test.Helpoween.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -821,7 +825,7 @@
 		};
 		2D3FD121246EC2CC00EDD02C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 026F27A694986B2A3B066ACE /* Pods-HelpCovTests.debug.xcconfig */;
+			baseConfigurationReference = 9695F66B92097E0765C9BD36 /* Pods-HelpoweenTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -844,7 +848,7 @@
 		};
 		2D3FD122246EC2CC00EDD02C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0DF275B6CCFB44BCAF95CC60 /* Pods-HelpCovTests.release.xcconfig */;
+			baseConfigurationReference = 0E13A7A2DFA090303D8EB530 /* Pods-HelpoweenTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -867,7 +871,7 @@
 		};
 		2D3FD124246EC2CC00EDD02C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BCC7B1C74E9A56BD289A016 /* Pods-HelpCov-HelpCovUITests.debug.xcconfig */;
+			baseConfigurationReference = 3FCE0CCF5BBB2B52A299D4BA /* Pods-Helpoween-HelpoweenUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -888,7 +892,7 @@
 		};
 		2D3FD125246EC2CC00EDD02C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C1836EE557BDC98E93B32E2 /* Pods-HelpCov-HelpCovUITests.release.xcconfig */;
+			baseConfigurationReference = DD2901BA94EC27625C15E0B6 /* Pods-Helpoween-HelpoweenUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

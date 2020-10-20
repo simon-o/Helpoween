@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -22,7 +24,7 @@
                             <color key="textColor" red="0.89411764709999997" green="0.48627450979999998" blue="0.1764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ag4-Aj-X4X">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ag4-Aj-X4X">
                             <rect key="frame" x="379" y="8" width="30" height="30"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="30" id="S9d-GN-HJE"/>
@@ -30,14 +32,13 @@
                             </constraints>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
                             <state key="normal" title="X">
-                                <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="titleColor" name="OppositeColor"/>
                             </state>
                             <connections>
                                 <action selector="closePressed:" destination="-1" eventType="touchUpInside" id="1e8-vj-fwt"/>
                             </connections>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" red="0.95043838458357721" green="0.96262349207823839" blue="0.96262349207823839" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
                         <constraint firstAttribute="bottom" secondItem="3cG-Pl-6Gk" secondAttribute="bottom" constant="30" id="3cf-GP-BPf"/>
                         <constraint firstAttribute="trailing" secondItem="ag4-Aj-X4X" secondAttribute="trailing" constant="5" id="5pv-hB-5Na"/>
@@ -48,7 +49,8 @@
                     </constraints>
                 </view>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="ysp-XU-4uU"/>
+            <color key="backgroundColor" name="HeaderColor"/>
             <constraints>
                 <constraint firstItem="0jl-dk-A8m" firstAttribute="top" secondItem="ipV-QW-BVZ" secondAttribute="top" id="1NI-Hg-ktj"/>
                 <constraint firstItem="0jl-dk-A8m" firstAttribute="bottom" secondItem="ysp-XU-4uU" secondAttribute="bottom" id="4e9-3K-8W4"/>
@@ -56,11 +58,18 @@
                 <constraint firstItem="0jl-dk-A8m" firstAttribute="leading" secondItem="ysp-XU-4uU" secondAttribute="leading" id="CUF-Ru-1eh"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <viewLayoutGuide key="safeArea" id="ysp-XU-4uU"/>
             <connections>
                 <outlet property="titleLabel" destination="3cG-Pl-6Gk" id="q5q-yy-TV9"/>
             </connections>
             <point key="canvasLocation" x="318.84057971014494" y="143.30357142857142"/>
         </view>
     </objects>
+    <resources>
+        <namedColor name="HeaderColor">
+            <color red="0.87477254869999999" green="0.87016624210000004" blue="0.89412182569999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="OppositeColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
 </document>

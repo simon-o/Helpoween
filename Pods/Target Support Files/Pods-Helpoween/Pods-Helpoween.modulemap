@@ -1,0 +1,6 @@
+framework module Pods_Helpoween {
+  umbrella header "Pods-Helpoween-umbrella.h"
+
+  export *
+  module * { export * }
+}

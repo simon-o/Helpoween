@@ -32,7 +32,11 @@ class SearchAddressViewController: UIViewController {
         searchController = UISearchController(searchResultsController: resultsViewController)
         searchController?.searchResultsUpdater = resultsViewController
 
+        resultsViewController?.tableCellBackgroundColor = UIColor.init(named: "ReviewCellColor") ?? .systemGray3
+        
         let searchBar = searchController!.searchBar
+        
+        
         searchBar.sizeToFit()
         searchBar.placeholder = "Search for places"
         view.addSubview(searchBar)

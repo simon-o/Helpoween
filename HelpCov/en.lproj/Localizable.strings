@@ -7,7 +7,7 @@
 */
 
 "name_label" = "Address";
-"have_candy" = "Do this house give candy";
+"have_candy" = "Does this house give candy";
 "vegan_candy" = "Vegan candy";
 "halal_candy" = "Halal candy";
 

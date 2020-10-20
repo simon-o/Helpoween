@@ -10,13 +10,14 @@ import UIKit
 
 class ReviewTableViewCell: UITableViewCell {
 
-    @IBOutlet private weak var qualityLabel: UILabel!
     @IBOutlet private weak var maskCustomerLabel: UILabel!
     @IBOutlet private weak var maskEmployeLabel: UILabel!
     @IBOutlet private weak var distancingLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        backgroundColor = UIColor.init(named: "ReviewCellColor")
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

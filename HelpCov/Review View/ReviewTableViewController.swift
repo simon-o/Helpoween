@@ -36,6 +36,8 @@ class ReviewTableViewController: UITableViewController {
         tableView.estimatedSectionHeaderHeight = 100
         tableView.rowHeight = UITableView.automaticDimension
         tableView.estimatedRowHeight = 300
+        
+        tableView.backgroundColor = UIColor.init(named: "ReviewCellColor")
     }
 
     // MARK: - Table view data source

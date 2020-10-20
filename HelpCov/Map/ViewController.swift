@@ -32,7 +32,6 @@ final class ViewController: UIViewController {
         viewModel?.displayInfos = displayInfos
         viewModel?.removeMarkers = removeMarkers
         
-//        setUpButton(button: filterButton, image: UIImage(named: "filter")!)
         setUpButton(button: addButton, image: UIImage(named: "plus")!)
         
         map.showsUserLocation = true

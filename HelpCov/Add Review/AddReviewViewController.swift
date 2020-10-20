@@ -40,12 +40,18 @@ final class AddReviewViewController: UIViewController {
         searchVC = SearchAddressViewController()
         
         setUp()
+        setUpUI()
         setUpSegmented()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         viewModel?.donePressed()
+    }
+    
+    private func setUpUI() {
+        saveButton.backgroundColor = UIColor.init(named: "ButtonColor")
+        searchButton.backgroundColor = UIColor.init(named: "ButtonColor")
     }
     
     private func setUp() {

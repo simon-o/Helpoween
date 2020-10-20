@@ -18,16 +18,20 @@ protocol ReviewViewModelProtocol {
 final class ReviewViewModel: NSObject {
     var closePressed: (() -> Void)?
     
-    private func applyMain(text: String, second: String, bool: Bool?) -> NSAttributedString {
+    private func applyMain(text: String, second: String, bool: Bool) -> NSAttributedString {
         let formattext = text + ":\n"
-        let myAttributeMain = [NSAttributedString.Key.foregroundColor: UIColor.init(red: 0.023, green: 0.094, blue: 0.537, alpha: 1),
-                               NSAttributedString.Key.font: UIFont(name: "Helvetica", size: 15.0)!]
-        let partOne = NSAttributedString(string: formattext, attributes: myAttributeMain)
+        let myAttributeMain = [NSAttributedString.Key.foregroundColor: UIColor.init(named: "SecondTextColor"),
+                               NSAttributedString.Key.font: UIFont(name: "Helvetica", size: 19.0)!]
+       
         
-        var myAttributeSecond = [NSAttributedString.Key.foregroundColor: bool == true ? UIColor.init(red: 0.305, green: 0.660, blue: 0, alpha: 1) : UIColor.init(red: 0.660, green: 0.089, blue: 0, alpha: 1),
-                                 NSAttributedString.Key.font: UIFont(name: "Helvetica", size: 15.0)!]
-        if bool == nil { myAttributeSecond = [NSAttributedString.Key.foregroundColor: UIColor.init(red: 0.757, green: 0.728, blue: 0.041, alpha: 1)] }
-        let partTwo = NSAttributedString(string: second, attributes: myAttributeSecond)
+        let myAttributeSecond = [NSAttributedString.Key.foregroundColor: bool == true ?
+                                    UIColor.init(named: "TrueColor") :
+                                    UIColor.init(named: "FalseColor"),
+                                 NSAttributedString.Key.font: UIFont(name: "Helvetica", size: 18.0)!]
+//        if bool == nil { myAttributeSecond = [NSAttributedString.Key.foregroundColor: UIColor.init(red: 0.757, green: 0.728, blue: 0.041, alpha: 1)] }
+        
+        let partOne = NSAttributedString(string: formattext, attributes: myAttributeMain as [NSAttributedString.Key : Any])
+        let partTwo = NSAttributedString(string: second, attributes: myAttributeSecond as [NSAttributedString.Key : Any])
         
         let combination = NSMutableAttributedString()
         combination.append(partOne)
@@ -43,6 +47,7 @@ final class ReviewViewModel: NSObject {
 
 extension ReviewViewModel: ReviewViewModelProtocol {
     func configure(header: ReviewHeaderTableViewCell, infos: ListPoint) {
+        header.setShadow()
         header.setTitle(infos.array.first?.title ?? "")
         header.closedPressed = closedPressed
     }
