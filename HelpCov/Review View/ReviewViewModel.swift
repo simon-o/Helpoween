@@ -54,8 +54,8 @@ extension ReviewViewModel: ReviewViewModelProtocol {
     
     func configure(cell: ReviewTableViewCell, review: MapPoint) {
         
-        cell.setMaskCustomer(applyMain(text: "have_candy".localizedString, second: review.maskCustomer.convertString(), bool: review.maskCustomer))
-        cell.setMaskEmploye(applyMain(text: "vegan_candy".localizedString, second: review.maskEmploye.convertString(), bool: review.maskEmploye))
-        cell.setDistancing(applyMain(text: "halal_candy".localizedString, second: review.distancing.convertString(), bool: review.distancing))
+        cell.setHaveCandy(applyMain(text: "have_candy".localizedString, second: review.maskCustomer.convertString(), bool: review.maskCustomer))
+        cell.setVeganCandy(applyMain(text: "vegan_candy".localizedString, second: review.maskEmploye.convertString(), bool: review.maskEmploye))
+        cell.setHalalCandy(applyMain(text: "halal_candy".localizedString, second: review.distancing.convertString(), bool: review.distancing))
     }
 }

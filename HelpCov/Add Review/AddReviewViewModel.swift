@@ -24,9 +24,9 @@ protocol AddReviewViewModelProtocol {
     
     var updateName: ((String) -> Void)? {get set}
     
-    var getMaskCustomerValue: (() -> Bool)? {get set}
-    var getMaskEmployeValue: (() -> Bool)? {get set}
-    var getDistancingValue: (() -> Bool)? {get set}
+    var getCandyValue: (() -> Bool)? {get set}
+    var getVeganCandyValue: (() -> Bool)? {get set}
+    var getHalalCandyValue: (() -> Bool)? {get set}
     
     var popToPreviousView: (() -> Void)? {get set}
     
@@ -40,9 +40,9 @@ final class AddReviewViewModel: NSObject {
     let service: MapServiceProtocol
     var updateName: ((String) -> Void)?
     
-    var getMaskCustomerValue: (() -> Bool)?
-    var getMaskEmployeValue: (() -> Bool)?
-    var getDistancingValue: (() -> Bool)?
+    var getCandyValue: (() -> Bool)?
+    var getVeganCandyValue: (() -> Bool)?
+    var getHalalCandyValue: (() -> Bool)?
     
     var popToPreviousView: (() -> Void)?
     
@@ -105,9 +105,9 @@ extension AddReviewViewModel: AddReviewViewModelProtocol {
             service.addValue(name: place.name ?? "",
                              location: place.coordinate ,
                              address: place.formattedAddress ?? "",
-                             maskCutomer: getMaskCustomerValue?() ?? false,
-                             maskEmploye: getMaskEmployeValue?() ?? false,
-                             distancing: getDistancingValue?() ?? false) { (result) in
+                             getCandy: getCandyValue?() ?? false,
+                             getVegan: getVeganCandyValue?() ?? false,
+                             getHalal: getHalalCandyValue?() ?? false) { (result) in
                                 switch result {
                                 case .success:
                                     self.popToPreviousView?()

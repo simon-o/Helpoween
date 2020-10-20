@@ -68,9 +68,9 @@ final class AddReviewViewController: UIViewController {
         searchButton.setTitle(viewModel?.getSearchButton(), for: .normal)
         saveButton.setTitle(viewModel?.getSaveButton(), for: .normal)
         
-        viewModel?.getMaskCustomerValue = getMaskCustomerValue
-        viewModel?.getMaskEmployeValue = getMaskEmployeValue
-        viewModel?.getDistancingValue = getDistancingValue
+        viewModel?.getCandyValue = getMaskCustomerValue
+        viewModel?.getVeganCandyValue = getMaskEmployeValue
+        viewModel?.getHalalCandyValue = getDistancingValue
 
         viewModel?.popToPreviousView = popToPreviousView
     }

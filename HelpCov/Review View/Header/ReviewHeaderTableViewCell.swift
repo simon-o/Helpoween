@@ -14,6 +14,14 @@ class ReviewHeaderTableViewCell: UITableViewHeaderFooterView {
     
     var closedPressed: (() -> Void)?
     
+    override open func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+
+        if #available(iOS 13, *), self.traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
+            setShadow()
+        }
+    }
+    
     func setShadow() {
         layer.shadowColor = UIColor.init(named: "ShadowColor")?.cgColor
         layer.shadowOffset = CGSize(width: 0.0, height: 2.0)

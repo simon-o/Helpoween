@@ -25,13 +25,13 @@ class ReviewTableViewCell: UITableViewCell {
 
     }
     
-    func setMaskCustomer(_ text: NSAttributedString) {
+    func setHaveCandy(_ text: NSAttributedString) {
         maskCustomerLabel.attributedText = text
     }
-    func setMaskEmploye(_ text: NSAttributedString) {
+    func setVeganCandy(_ text: NSAttributedString) {
         maskEmployeLabel.attributedText = text
     }
-    func setDistancing(_ text: NSAttributedString) {
+    func setHalalCandy(_ text: NSAttributedString) {
         distancingLabel.attributedText = text
     }
 }
